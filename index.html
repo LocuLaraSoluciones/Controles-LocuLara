@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Catálogo ECR — LocuLara</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2C1A0E">
+<style>
+  :root {
+    --beige: #F5E6C8;
+    --marron: #2C1A0E;
+    --naranja: #B8621F;
+    --marron-suave: #4A3324;
+    --beige-card: #FBF4E4;
+    --linea: #D9C7A0;
+    --texto-tenue: #7A6B52;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: var(--marron);
+    font-family: 'Courier New', ui-monospace, monospace;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    color: var(--marron);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Header / búsqueda ---------- */
+  header {
+    background: var(--marron);
+    padding: 14px 16px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+  }
+
+  .header-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .marca-app {
+    color: var(--beige);
+    font-size: 13px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .marca-app span {
+    color: var(--naranja);
+  }
+
+  .contador {
+    color: var(--beige);
+    opacity: .65;
+    font-size: 11px;
+    letter-spacing: .04em;
+  }
+
+  .buscador-wrap {
+    position: relative;
+  }
+
+  #buscador {
+    width: 100%;
+    background: var(--beige);
+    border: 2px solid var(--naranja);
+    border-radius: 3px;
+    padding: 12px 40px 12px 14px;
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--marron);
+    outline: none;
+  }
+
+  #buscador::placeholder {
+    color: var(--texto-tenue);
+  }
+
+  #buscador:focus {
+    border-color: #d97a2a;
+    box-shadow: 0 0 0 3px rgba(184,98,31,.25);
+  }
+
+  .limpiar-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--texto-tenue);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 6px 8px;
+    display: none;
+    line-height: 1;
+  }
+
+  .limpiar-btn.activo { display: block; }
+
+  /* filtros rapidos */
+  .filtros-rapidos {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .filtros-rapidos::-webkit-scrollbar { display: none; }
+
+  .chip {
+    flex: none;
+    background: var(--marron-suave);
+    color: var(--beige);
+    border: 1px solid #5c4330;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .15s, border-color .15s;
+  }
+
+  .chip:hover { border-color: var(--naranja); }
+
+  .chip.activo {
+    background: var(--naranja);
+    border-color: var(--naranja);
+    color: var(--marron);
+    font-weight: 700;
+  }
+
+  /* ---------- Lista principal ---------- */
+  main {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--beige);
+    padding: 10px 0 90px;
+  }
+
+  .lista {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
+
+  .fila {
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    gap: 12px;
+    align-items: start;
+    background: var(--beige-card);
+    border: 1px solid var(--linea);
+    border-left: 4px solid var(--naranja);
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+  }
+
+  .fila.sin-match { display: none; }
+
+  .fila-codigo {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--marron);
+    letter-spacing: .02em;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+  .fila-pagina {
+    display: block;
+    font-size: 10px;
+    color: var(--texto-tenue);
+    font-weight: 400;
+    margin-top: 2px;
+  }
+
+  .fila-marcas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .marca-tag {
+    background: transparent;
+    border: 1px solid var(--linea);
+    color: var(--marron-suave);
+    font-size: 11.5px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    line-height: 1.2;
+  }
+
+  .marca-tag.resaltada {
+    background: var(--naranja);
+    border-color: var(--naranja);
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .codigo-resaltado {
+    background: var(--naranja);
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 2px;
+  }
+
+  /* ---------- Estado vacío ---------- */
+  .vacio {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--texto-tenue);
+  }
+
+  .vacio-codigo {
+    font-size: 13px;
+    letter-spacing: .1em;
+    color: var(--naranja);
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+
+  .vacio p { font-size: 14px; line-height: 1.5; }
+
+  .oculto { display: none !important; }
+
+  /* ---------- Footer info ---------- */
+  .pie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--marron);
+    color: var(--beige);
+    opacity: .85;
+    font-size: 10.5px;
+    text-align: center;
+    padding: 7px 10px;
+    letter-spacing: .03em;
+    border-top: 1px solid var(--marron-suave);
+  }
+
+  @media (min-width: 600px) {
+    .fila { grid-template-columns: 110px 1fr; }
+  }
+
+  /* Scrollbar discreto */
+  main::-webkit-scrollbar { width: 8px; }
+  main::-webkit-scrollbar-track { background: transparent; }
+  main::-webkit-scrollbar-thumb { background: var(--linea); border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="marca-app">CATÁLOGO<span>·</span>ECR</div>
+    <div class="contador" id="contador">— controles</div>
+  </div>
+  <div class="buscador-wrap">
+    <input
+      type="text"
+      id="buscador"
+      placeholder="Buscar por código o marca... (ej: TV-12, SAMSUNG)"
+      autocomplete="off"
+      spellcheck="false"
+    >
+    <button class="limpiar-btn" id="limpiarBtn" aria-label="Limpiar búsqueda">✕</button>
+  </div>
+  <div class="filtros-rapidos" id="filtrosRapidos"></div>
+</header>
+
+<main>
+  <div class="lista" id="lista"></div>
+  <div class="vacio oculto" id="vacioEstado">
+    <div class="vacio-codigo">SIN COINCIDENCIAS</div>
+    <p>No encontramos ningún control con ese código o marca.<br>Revisá la escritura o probá con otro término.</p>
+  </div>
+</main>
+
+<div class="pie" id="pie">LocuLara Soluciones — Catálogo interno de controles remotos</div>
+
+<script>
+let CATALOGO = [];
+let marcaFiltroActiva = null;
+
+const $buscador = document.getElementById('buscador');
+const $lista = document.getElementById('lista');
+const $contador = document.getElementById('contador');
+const $vacioEstado = document.getElementById('vacioEstado');
+const $limpiarBtn = document.getElementById('limpiarBtn');
+const $filtrosRapidos = document.getElementById('filtrosRapidos');
+
+function normalizar(texto) {
+  return texto
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function resaltar(texto, termino) {
+  if (!termino) return escapeHtml(texto);
+  const textoNorm = normalizar(texto);
+  const idx = textoNorm.indexOf(termino);
+  if (idx === -1) return escapeHtml(texto);
+  const antes = texto.slice(0, idx);
+  const medio = texto.slice(idx, idx + termino.length);
+  const despues = texto.slice(idx + termino.length);
+  return `${escapeHtml(antes)}<span class="codigo-resaltado">${escapeHtml(medio)}</span>${escapeHtml(despues)}`;
+}
+
+function renderFila(item, termino) {
+  const codigoHTML = resaltar(item.codigo, termino);
+  const marcasHTML = item.marcas.map(m => {
+    const norm = normalizar(m);
+    const matchMarca = termino && norm.includes(termino);
+    const cls = matchMarca ? 'marca-tag resaltada' : 'marca-tag';
+    return `<span class="${cls}">${escapeHtml(m)}</span>`;
+  }).join('');
+
+  return `
+    <div class="fila" data-codigo="${escapeHtml(normalizar(item.codigo))}" data-marcas="${escapeHtml(normalizar(item.marcas.join(' ')))}">
+      <div>
+        <div class="fila-codigo">${codigoHTML}</div>
+        <span class="fila-pagina">pág. ${item.pagina}</span>
+      </div>
+      <div class="fila-marcas">${marcasHTML}</div>
+    </div>
+  `;
+}
+
+function renderLista() {
+  $lista.innerHTML = CATALOGO.map(item => renderFila(item, '')).join('');
+}
+
+function marcasMasFrecuentes(n = 10) {
+  const conteo = {};
+  CATALOGO.forEach(item => {
+    item.marcas.forEach(m => {
+      conteo[m] = (conteo[m] || 0) + 1;
+    });
+  });
+  return Object.entries(conteo)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, n)
+    .map(([marca]) => marca);
+}
+
+function renderChips() {
+  const top = marcasMasFrecuentes(10);
+  $filtrosRapidos.innerHTML = top.map(m =>
+    `<button class="chip" data-marca="${escapeHtml(normalizar(m))}">${escapeHtml(m)}</button>`
+  ).join('');
+
+  $filtrosRapidos.querySelectorAll('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const marca = chip.dataset.marca;
+      if (marcaFiltroActiva === marca) {
+        marcaFiltroActiva = null;
+        chip.classList.remove('activo');
+        $buscador.value = '';
+      } else {
+        marcaFiltroActiva = marca;
+        $filtrosRapidos.querySelectorAll('.chip').forEach(c => c.classList.remove('activo'));
+        chip.classList.add('activo');
+        $buscador.value = chip.textContent;
+      }
+      aplicarFiltro();
+    });
+  });
+}
+
+function aplicarFiltro() {
+  const termino = normalizar($buscador.value.trim());
+  $limpiarBtn.classList.toggle('activo', termino.length > 0);
+
+  let visibles = 0;
+
+  if (!termino) {
+    $lista.innerHTML = CATALOGO.map(item => renderFila(item, '')).join('');
+    visibles = CATALOGO.length;
+    $filtrosRapidos.querySelectorAll('.chip').forEach(c => c.classList.remove('activo'));
+    marcaFiltroActiva = null;
+  } else {
+    const coincidencias = CATALOGO.filter(item => {
+      const codigoNorm = normalizar(item.codigo);
+      const marcasNorm = normalizar(item.marcas.join(' '));
+      return codigoNorm.includes(termino) || marcasNorm.includes(termino);
+    });
+    $lista.innerHTML = coincidencias.map(item => renderFila(item, termino)).join('');
+    visibles = coincidencias.length;
+  }
+
+  $vacioEstado.classList.toggle('oculto', visibles > 0);
+  $contador.textContent = visibles === CATALOGO.length
+    ? `${CATALOGO.length} controles`
+    : `${visibles} de ${CATALOGO.length}`;
+}
+
+$buscador.addEventListener('input', aplicarFiltro);
+$limpiarBtn.addEventListener('click', () => {
+  $buscador.value = '';
+  aplicarFiltro();
+  $buscador.focus();
+});
+
+fetch('catalogo_tv.json')
+  .then(r => r.json())
+  .then(data => {
+    CATALOGO = data;
+    renderLista();
+    renderChips();
+    $contador.textContent = `${CATALOGO.length} controles`;
+  })
+  .catch(err => {
+    $lista.innerHTML = `<div class="vacio"><div class="vacio-codigo">ERROR DE CARGA</div><p>No se pudo cargar el catálogo. Revisá la consola.</p></div>`;
+    console.error(err);
+  });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1776 @@
+[
+  {
+    "codigo": "TV-01",
+    "pagina": 16,
+    "marcas": [
+      "LG",
+      "GOLDSTAR",
+      "CONTINENTAL ELECTRIC",
+      "KENIA",
+      "RANSER",
+      "TELEFUNKEN",
+      "SERIE DORADA",
+      "HITACHI",
+      "CEAGO",
+      "DREAN",
+      "GENERAL ELECTRIC",
+      "NOBLEX",
+      "ORIENT"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-02",
+    "pagina": 16,
+    "marcas": [
+      "LG",
+      "GOLDSTAR",
+      "CONTINENTAL ELECTRIC",
+      "KENIA",
+      "SERIE DORADA",
+      "CITIZEN",
+      "RANSER",
+      "SANKEI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-04",
+    "pagina": 16,
+    "marcas": [
+      "AUDINAC",
+      "REGENCY",
+      "ADMIRAL",
+      "ITT NOKIA",
+      "WHITE WESTINGHOUSE",
+      "SERIE DORADA",
+      "NOBLEX",
+      "KEIO",
+      "DEWO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-05",
+    "pagina": 16,
+    "marcas": [
+      "SERIE DORADA",
+      "WHITE WESTINGHOUSE",
+      "WATSON",
+      "SHARP",
+      "BASIC LINE",
+      "ADMIRAL",
+      "TONOMAC",
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-06",
+    "pagina": 16,
+    "marcas": [
+      "FIRST LINE",
+      "WHITE WESTINGHOUSE",
+      "EMERSON",
+      "CROWN",
+      "PROTECH",
+      "NOKIA",
+      "TOP HOUSE",
+      "SERIE DORADA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-07",
+    "pagina": 16,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-08",
+    "pagina": 16,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-09",
+    "pagina": 16,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-10",
+    "pagina": 16,
+    "marcas": [
+      "JVC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-12",
+    "pagina": 16,
+    "marcas": [
+      "JVC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-13",
+    "pagina": 16,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-14",
+    "pagina": 16,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-15",
+    "pagina": 16,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-16",
+    "pagina": 16,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-17",
+    "pagina": 17,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-18",
+    "pagina": 17,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-19",
+    "pagina": 17,
+    "marcas": [
+      "PHILCO",
+      "DELOS",
+      "DAENYX",
+      "DAEWOO",
+      "DEWO",
+      "TONOMAC",
+      "RANSER",
+      "SANSEI",
+      "DAYTRON",
+      "FIRST LINE",
+      "CITIZEN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-20",
+    "pagina": 17,
+    "marcas": [
+      "PHILCO",
+      "DAENYX",
+      "DAEWOO",
+      "DEWO",
+      "TECNOLOGIC",
+      "TONOMAC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-21",
+    "pagina": 17,
+    "marcas": [
+      "PHILCO",
+      "AUDINAC",
+      "BROKSONIC",
+      "AKIO",
+      "CROWN",
+      "ADMIRAL",
+      "PRECISION",
+      "SANSEI",
+      "TOKAY",
+      "DAEWOO",
+      "DAYTRON",
+      "ELTEC",
+      "NAKAI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-22",
+    "pagina": 17,
+    "marcas": [
+      "SANYO",
+      "FISHER",
+      "NOBLEX",
+      "HQS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-24",
+    "pagina": 17,
+    "marcas": [
+      "KEN BROWN",
+      "AUDIOLOGIC",
+      "TONOMAC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-25",
+    "pagina": 17,
+    "marcas": [
+      "CROWN",
+      "GRUNDIG",
+      "DAENYX",
+      "TONOMAC",
+      "WINS",
+      "ADMIRAL",
+      "CEGESA",
+      "DAYTRON",
+      "DEWO",
+      "DINASTY",
+      "HQS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-26",
+    "pagina": 17,
+    "marcas": [
+      "AUDINAC",
+      "CROWN",
+      "WHITE WESTINGHOUSE",
+      "DAYTRON",
+      "DAEWOO",
+      "NOKIA",
+      "TALENT"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-27",
+    "pagina": 17,
+    "marcas": [
+      "TELEFUNKEN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-28",
+    "pagina": 17,
+    "marcas": [
+      "NOBLEX",
+      "SAMSUNG",
+      "TELEFUNKEN",
+      "ITT NOKIA",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-29",
+    "pagina": 17,
+    "marcas": [
+      "NOBLEX",
+      "SAMSUNG",
+      "TELEFUNKEN",
+      "ITT NOKIA",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-30",
+    "pagina": 17,
+    "marcas": [
+      "PHILCO",
+      "NOBLEX",
+      "SAMSUNG",
+      "ITT NOKIA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-31",
+    "pagina": 18,
+    "marcas": [
+      "CROWN MUSTANG",
+      "DEWO",
+      "PHILCO",
+      "AUDINAC",
+      "OLYMPIC",
+      "DAENYX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-32",
+    "pagina": 18,
+    "marcas": [
+      "PHILCO",
+      "SAMPO",
+      "SANSEI",
+      "DEWO",
+      "DAEWOO",
+      "DAYTRON",
+      "ACOUSTECH",
+      "PANAVOX",
+      "RANSER",
+      "PRECISION"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-33",
+    "pagina": 18,
+    "marcas": [
+      "SAMSUNG",
+      "NOBLEX",
+      "TELEFUNKEN",
+      "SERIE DORADA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-34",
+    "pagina": 18,
+    "marcas": [
+      "SONY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-35",
+    "pagina": 18,
+    "marcas": [
+      "SONY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-36",
+    "pagina": 18,
+    "marcas": [
+      "JVC",
+      "GRADIENTE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-37",
+    "pagina": 18,
+    "marcas": [
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-38",
+    "pagina": 18,
+    "marcas": [
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-39",
+    "pagina": 18,
+    "marcas": [
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-40",
+    "pagina": 18,
+    "marcas": [
+      "SANYO",
+      "FISHER",
+      "NOBLEX",
+      "SANSEI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-41",
+    "pagina": 18,
+    "marcas": [
+      "NOBLEX",
+      "PANORAMIC",
+      "PHILCO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-42",
+    "pagina": 18,
+    "marcas": [
+      "SANYO",
+      "PHILCO",
+      "NOBLEX",
+      "TOP HOUSE",
+      "AUDIOLOGIC",
+      "PANORAMIC",
+      "SANSEI",
+      "ADMIRAL",
+      "TALENT",
+      "DIPLOMATIC",
+      "NISATO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-47",
+    "pagina": 18,
+    "marcas": [
+      "LG",
+      "GOLDSTAR"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-48",
+    "pagina": 18,
+    "marcas": [
+      "ADMIRAL",
+      "MICROSONIC",
+      "TONOMAC",
+      "TOP HOUSE",
+      "BASIC LINE",
+      "AUDINAC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-49",
+    "pagina": 19,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-53",
+    "pagina": 19,
+    "marcas": [
+      "AUDINAC",
+      "ADMIRAL",
+      "FIRST LINE",
+      "AUDIOLOGIC",
+      "TONOMAC",
+      "NOKIA",
+      "SHARP",
+      "RANSER",
+      "SEIKO",
+      "SERIE DORADA",
+      "WATSON",
+      "CEGESA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-54",
+    "pagina": 19,
+    "marcas": [
+      "DUMONT",
+      "SANWA",
+      "DREAN",
+      "ADMIRAL",
+      "TALENT"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-55",
+    "pagina": 19,
+    "marcas": [
+      "DUMONT",
+      "SANWA",
+      "DREAN",
+      "ADMIRAL",
+      "TALENT",
+      "DEWO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-56",
+    "pagina": 19,
+    "marcas": [
+      "AIWA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-57",
+    "pagina": 19,
+    "marcas": [
+      "PANASONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-58",
+    "pagina": 19,
+    "marcas": [
+      "PANASONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-59",
+    "pagina": 19,
+    "marcas": [
+      "DIPLOMATIC",
+      "TALENT",
+      "AURORA",
+      "AUDIOLOGIC",
+      "PANORAMIC",
+      "BASIC LINE",
+      "SHARP",
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-60",
+    "pagina": 19,
+    "marcas": [
+      "PHILCO",
+      "DAEWOO",
+      "DAYTRON",
+      "PROTECH",
+      "NOKIA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-61",
+    "pagina": 19,
+    "marcas": [
+      "PHILCO",
+      "DAEWOO",
+      "DAYTRON",
+      "PROTECH",
+      "NOKIA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-62",
+    "pagina": 19,
+    "marcas": [
+      "NOBLEX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-63",
+    "pagina": 19,
+    "marcas": [
+      "SAMSUNG",
+      "NOBLEX",
+      "TELEFUNKEN",
+      "SERIE DORADA",
+      "GENERAL ELECTRIC",
+      "REGENCY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-64",
+    "pagina": 19,
+    "marcas": [
+      "AUDINAC",
+      "SERIE DORADA",
+      "TOP HOUSE",
+      "AUDIOLOGIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-65",
+    "pagina": 19,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-66",
+    "pagina": 20,
+    "marcas": [
+      "LG",
+      "GOLDSTAR"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-67",
+    "pagina": 20,
+    "marcas": [
+      "TONOMAC",
+      "KEN BROWN",
+      "PANORAMIC",
+      "TIMEX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-68",
+    "pagina": 20,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-69",
+    "pagina": 20,
+    "marcas": [
+      "RCA",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-70",
+    "pagina": 20,
+    "marcas": [
+      "RCA",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-71",
+    "pagina": 20,
+    "marcas": [
+      "SAMSUNG",
+      "NOBLEX",
+      "TELEFUNKEN",
+      "SERIE DORADA",
+      "GENERAL ELECTRIC",
+      "REGENCY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-72",
+    "pagina": 20,
+    "marcas": [
+      "TOSHIBA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-73",
+    "pagina": 20,
+    "marcas": [
+      "TAMASHI",
+      "BROKSONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-74",
+    "pagina": 20,
+    "marcas": [
+      "TOSHIBA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-75",
+    "pagina": 20,
+    "marcas": [
+      "NOBLEX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-77",
+    "pagina": 20,
+    "marcas": [
+      "CCE",
+      "KEN BROWN",
+      "AUDIOLOGIC",
+      "TALENT",
+      "TONOMAC",
+      "TOP HOUSE",
+      "DIPLOMATIC",
+      "DURABRAND",
+      "NISATO",
+      "PANORAMIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-78",
+    "pagina": 20,
+    "marcas": [
+      "RCA",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-79",
+    "pagina": 20,
+    "marcas": [
+      "SAMSUNG",
+      "NOBLEX",
+      "TELEFUNKEN",
+      "SERIE DORADA",
+      "GENERAL ELECTRIC",
+      "REGENCY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-80",
+    "pagina": 20,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-81",
+    "pagina": 21,
+    "marcas": [
+      "TCL",
+      "SANYO",
+      "TELEFUNKEN",
+      "GENERAL ELECTRIC",
+      "BGH",
+      "FIRST LINE",
+      "NOBLEX",
+      "TOP HOUSE",
+      "BLUESKY",
+      "HYUNDAI",
+      "RCA",
+      "RECCO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-82",
+    "pagina": 21,
+    "marcas": [
+      "ZENITH"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-84",
+    "pagina": 21,
+    "marcas": [
+      "TOP HOUSE",
+      "CROWN",
+      "ALFIDE",
+      "ADMIRAL",
+      "WINS",
+      "AUDINAC",
+      "DIPLOMATIC",
+      "GRUNDIG",
+      "NISATO",
+      "TALENT",
+      "TONOMAC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-85",
+    "pagina": 21,
+    "marcas": [
+      "ADMIRAL",
+      "LYNX",
+      "CROWN",
+      "MOVITEC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-86",
+    "pagina": 21,
+    "marcas": [
+      "SANYO",
+      "NOBLEX",
+      "PHILCO",
+      "TOP HOUSE",
+      "RECCO",
+      "AUDIOLOGIC",
+      "HQS",
+      "SANSEI",
+      "STEEL HOME",
+      "TALENT",
+      "DIPLOMATIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-87",
+    "pagina": 21,
+    "marcas": [
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-89",
+    "pagina": 21,
+    "marcas": [
+      "CROWN",
+      "RECOR",
+      "DEWO",
+      "DREAN",
+      "ELTEC",
+      "WELFUND",
+      "BLUESKY",
+      "CFK",
+      "FREEWAY",
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-90",
+    "pagina": 21,
+    "marcas": [
+      "SANYO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-91",
+    "pagina": 21,
+    "marcas": [
+      "HYUNDAI",
+      "TAKUMA",
+      "DAIHATSU",
+      "DURABRAND",
+      "RECCO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-92",
+    "pagina": 21,
+    "marcas": [
+      "TOP HOUSE",
+      "TALENT",
+      "CROWN",
+      "WINS",
+      "NISATO",
+      "TAKATA",
+      "TONOMAC",
+      "FAIRMALE",
+      "DURABRAND",
+      "DIPLOMATIC",
+      "KEN BROWN",
+      "AUDIOLOGIC",
+      "SHARP",
+      "WNR",
+      "PLATINO",
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-93",
+    "pagina": 21,
+    "marcas": [
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-96",
+    "pagina": 21,
+    "marcas": [
+      "RCA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-98",
+    "pagina": 21,
+    "marcas": [
+      "SHARP"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-101",
+    "pagina": 21,
+    "marcas": [
+      "JVC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-102",
+    "pagina": 21,
+    "marcas": [
+      "NOBLEX",
+      "AURORA",
+      "FIRST LINE",
+      "ADMIRAL"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-104",
+    "pagina": 22,
+    "marcas": [
+      "SONY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-110",
+    "pagina": 22,
+    "marcas": [
+      "WINS",
+      "BLUESKY",
+      "DURABRAND",
+      "BLAZE",
+      "CEGESA",
+      "HOWLAND",
+      "NTC",
+      "DAYTEK",
+      "LANDSTROM"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-111",
+    "pagina": 22,
+    "marcas": [
+      "SONY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-112",
+    "pagina": 22,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-113",
+    "pagina": 22,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-114",
+    "pagina": 22,
+    "marcas": [
+      "GOLDSTAR",
+      "CONTINENTAL ELECTRIC",
+      "KENIA",
+      "SERIE DORADA",
+      "SAKURA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-115",
+    "pagina": 22,
+    "marcas": [
+      "TOP HOUSE",
+      "CHASIS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-116",
+    "pagina": 22,
+    "marcas": [
+      "LG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-122",
+    "pagina": 22,
+    "marcas": [
+      "SANYO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-125",
+    "pagina": 22,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-126",
+    "pagina": 22,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-127",
+    "pagina": 22,
+    "marcas": [
+      "AUDINAC",
+      "OLYMPIC",
+      "AUDIOLOGIC",
+      "WHITE WESTINGHOUSE",
+      "BROOKLINE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-130",
+    "pagina": 22,
+    "marcas": [
+      "BROKSONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-131",
+    "pagina": 22,
+    "marcas": [
+      "PHILCO",
+      "SANSEI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-134",
+    "pagina": 22,
+    "marcas": [
+      "AUDINAC",
+      "NOKIA",
+      "ADMIRAL",
+      "FIRST LINE",
+      "TONOMAC",
+      "SERIE DORADA",
+      "REGENCY",
+      "SANSEI",
+      "TELEFUNKEN",
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-135",
+    "pagina": 23,
+    "marcas": [
+      "RECCO",
+      "BGH",
+      "HYUNDAI",
+      "TCL",
+      "JAMES",
+      "GENERAL ELECTRIC",
+      "TELEFUNKEN",
+      "RANSER"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-137",
+    "pagina": 23,
+    "marcas": [
+      "PANASONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-139",
+    "pagina": 23,
+    "marcas": [
+      "GENERAL ELECTRIC",
+      "TELEFUNKEN",
+      "BGH"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-142",
+    "pagina": 23,
+    "marcas": [
+      "LG",
+      "GOLDSTAR",
+      "TELEFUNKEN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-143",
+    "pagina": 23,
+    "marcas": [
+      "LYNX",
+      "HISHI",
+      "GLOBAL HOME",
+      "KEN BROWN",
+      "TAKUMA",
+      "BASIC LINE",
+      "DAYTEK",
+      "CONTINENTAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-145",
+    "pagina": 23,
+    "marcas": [
+      "NTC",
+      "MK TECH",
+      "WINS",
+      "SOLTECH",
+      "TREVI",
+      "EUROMAX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-146",
+    "pagina": 23,
+    "marcas": [
+      "DAEWOO",
+      "PHILCO",
+      "CCE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-147",
+    "pagina": 23,
+    "marcas": [
+      "KEN BROWN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-149",
+    "pagina": 23,
+    "marcas": [
+      "NOBLEX",
+      "AURORA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-153",
+    "pagina": 23,
+    "marcas": [
+      "TOSHIBA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-154",
+    "pagina": 23,
+    "marcas": [
+      "NOBLEX",
+      "AURORA",
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-155",
+    "pagina": 23,
+    "marcas": [
+      "SONY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-156",
+    "pagina": 23,
+    "marcas": [
+      "DAEWOO",
+      "EMERSON",
+      "ONWA",
+      "TONOMAC",
+      "SHOWA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-157",
+    "pagina": 23,
+    "marcas": [
+      "FIRST LINE",
+      "RECCO",
+      "BASIC LINE",
+      "RANSER",
+      "SERIE DORADA",
+      "ADMIRAL",
+      "BLUESKY",
+      "BRANIFF",
+      "WINS",
+      "PANORAMIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-160",
+    "pagina": 23,
+    "marcas": [
+      "AURORA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-161",
+    "pagina": 24,
+    "marcas": [
+      "RCA",
+      "TONOMAC",
+      "CROWN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-162",
+    "pagina": 24,
+    "marcas": [
+      "BLUESKY",
+      "HYPSON",
+      "HISENSE",
+      "WATSON"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-163",
+    "pagina": 24,
+    "marcas": [
+      "BLUESKY"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-164",
+    "pagina": 24,
+    "marcas": [
+      "GOLDMUND"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-167",
+    "pagina": 24,
+    "marcas": [
+      "ADMIRAL",
+      "AUDINAC",
+      "DEWO",
+      "KEIO",
+      "NOBLEX",
+      "WHITE WESTINGHOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-168",
+    "pagina": 24,
+    "marcas": [
+      "ADMIRAL",
+      "PHILCO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-169",
+    "pagina": 24,
+    "marcas": [
+      "AUDIOLOGIC",
+      "ADMIRAL",
+      "TALENT"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-170",
+    "pagina": 24,
+    "marcas": [
+      "TOP HOUSE",
+      "HYUNDAI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-171",
+    "pagina": 24,
+    "marcas": [
+      "PANASONIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-174",
+    "pagina": 24,
+    "marcas": [
+      "TOSHIBA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-175",
+    "pagina": 24,
+    "marcas": [
+      "PHILIPS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-176",
+    "pagina": 24,
+    "marcas": [
+      "BGH",
+      "AUDINAC",
+      "AUDIOLOGIC",
+      "GENERAL ELECTRIC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-179",
+    "pagina": 24,
+    "marcas": [
+      "HOWLAND",
+      "EVIAN",
+      "TAKATA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-181",
+    "pagina": 24,
+    "marcas": [
+      "SAMSUNG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-182",
+    "pagina": 24,
+    "marcas": [
+      "JVC"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-186",
+    "pagina": 25,
+    "marcas": [
+      "MICROTECH",
+      "DURABRAND",
+      "CONTINENTAL ELECTRIC",
+      "RANSER",
+      "NTC",
+      "TREVI",
+      "BRABUS",
+      "CROWN",
+      "DAICHI",
+      "HAISI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-187",
+    "pagina": 25,
+    "marcas": [
+      "MICROTECH",
+      "DURABRAND",
+      "CONTINENTAL ELECTRIC",
+      "RANSER",
+      "NTC",
+      "TREVI",
+      "BRABUS",
+      "CROWN",
+      "DAICHI",
+      "HAISI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-188",
+    "pagina": 25,
+    "marcas": [
+      "GLOBAL HOME"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-189",
+    "pagina": 25,
+    "marcas": [
+      "MICROTECH",
+      "DURABRAND",
+      "CONTINENTAL ELECTRIC",
+      "RANSER",
+      "NTC",
+      "TREVI",
+      "BRABUS",
+      "CROWN",
+      "DAICHI",
+      "HAISI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-190",
+    "pagina": 25,
+    "marcas": [
+      "SHARP",
+      "KEN BROWN",
+      "AUDIOLOGIC",
+      "DIPLOMATIC",
+      "TONOMAC",
+      "BASIC LINE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-190N",
+    "pagina": 25,
+    "marcas": [
+      "TONOMAC",
+      "KEN BROWN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-191",
+    "pagina": 25,
+    "marcas": [
+      "CROWN",
+      "MUSTANG",
+      "DAENYX"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-192",
+    "pagina": 25,
+    "marcas": [
+      "GLOBAL HOME",
+      "SERIE DORADA",
+      "KNESSEL",
+      "NAGAKAWA",
+      "FIRST LINE",
+      "HOWLAND",
+      "ROASTAR",
+      "HYUNDAI",
+      "RANSER",
+      "WATSON",
+      "DAICHI",
+      "WINS",
+      "LYNX",
+      "ILO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-194",
+    "pagina": 25,
+    "marcas": [
+      "HITACHI",
+      "RCA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-195",
+    "pagina": 25,
+    "marcas": [
+      "HITACHI"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-199",
+    "pagina": 25,
+    "marcas": [
+      "GRUNDIG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-200",
+    "pagina": 25,
+    "marcas": [
+      "TELEFUNKEN",
+      "BGH",
+      "TCL SLIM",
+      "RCA",
+      "TOP HOUSE"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-203",
+    "pagina": 25,
+    "marcas": [
+      "CHASIS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-207",
+    "pagina": 25,
+    "marcas": [
+      "LG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-208",
+    "pagina": 25,
+    "marcas": [
+      "CHASIS"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-209",
+    "pagina": 26,
+    "marcas": [
+      "TALENT",
+      "SABA"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-210",
+    "pagina": 26,
+    "marcas": [
+      "TOP HOUSE",
+      "HOWLAND",
+      "TOKYO",
+      "TALENT",
+      "PREMIER"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-211",
+    "pagina": 26,
+    "marcas": [
+      "OLYMPIC",
+      "GLOBAL HOME"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-214",
+    "pagina": 26,
+    "marcas": [
+      "BGH",
+      "TCL",
+      "TELEFUNKEN"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TV-216",
+    "pagina": 26,
+    "marcas": [
+      "SAMSUNG"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  },
+  {
+    "codigo": "TC-215",
+    "pagina": 26,
+    "marcas": [
+      "NOBLEX",
+      "SANYO",
+      "PHILCO"
+    ],
+    "codigo_universo": null,
+    "notas": null
+  }
+]
